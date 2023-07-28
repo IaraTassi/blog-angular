@@ -5,23 +5,23 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .big-card-title > h1 > a {
   margin-top: 15px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .big-card-description {
   margin-top: 10px;
 }
-.big-card-description > p {
+.big-card-description > p > a {
    color: grey;
 }
 
-.big-card-photo {
+.big-card-photo img {
   width: 100%;
   min-width: 395px;
 }

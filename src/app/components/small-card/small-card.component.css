@@ -13,15 +13,21 @@
   min-width: 200px;
   margin-right: 20px;
   margin-top: -8px;
-
 }
 
 .small-card-title {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 15px;
 }
 
-.container-small-card-content {
+.small-card-title > h1 >  a {
+  color: rgb(116, 111, 111);
+  font-size: 15px;
+}
+
+.container-small-card-separator {
   margin-top: 10px;
 }
+

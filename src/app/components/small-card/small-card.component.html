@@ -2,14 +2,14 @@
 
     <div class="container-small-card-content">
     <div class="small-card-photo">
-    <img src="https://media.istockphoto.com/id/1321462048/pt/foto/digital-transformation-concept-system-engineering-binary-code-programming.jpg?s=612x612&w=is&k=20&c=6B91YFuEUilxXCaldXrXGdTQjahTdPiLEfHWTPcaHOY=" 
+    <img src="{{ photoCover }}" 
     alt="" 
     srcset="">
   </div>
 
   <div class="small-card-title">
     <h1>
-      <a href="">Desenvolvedor full stack</a>
+      <a [routerLink]="['id', Id]">{{ cardTitle }}</a>
     </h1>
   </div>
   </div>
