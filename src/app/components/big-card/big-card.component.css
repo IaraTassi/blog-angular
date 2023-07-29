@@ -11,11 +11,11 @@
 
 .big-card-title > h1 > a {
   margin-top: 15px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .big-card-description {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .big-card-description > p > a {
    color: grey;
@@ -24,4 +24,5 @@
 .big-card-photo img {
   width: 100%;
   min-width: 395px;
+
 }
